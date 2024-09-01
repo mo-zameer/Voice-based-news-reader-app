@@ -1,0 +1,28 @@
+#root, html, body{
+    height: 100vh; /*height will be equal to entire height of screen*/
+}
+
+body{
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+*{
+    box-sizing: border-box; /*height or width + padding + border is taken as seperate things inside a box*/
+}
+
+html{
+    scroll-behavior: smooth; /*Smooth scrolling animation for user as well as alan ai*/
+}
+footer {
+    position:relative;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+  
+footer p {
+    color: #ccc;
+}
+/*Initial styling*/
